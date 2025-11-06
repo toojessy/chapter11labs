@@ -1,8 +1,9 @@
 public class Humbah extends SupremeBoohbah{
 
     public Humbah() {
+        super();
         name = "Humbah";
-        System.out.println("proclaims loyalty to Zing Zing Zingbah.");
+        System.out.println(name + "proclaims loyalty to Zing Zing Zingbah.");
     }
 
     @Override
