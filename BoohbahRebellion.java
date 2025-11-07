@@ -2,7 +2,7 @@ public class SupremeBoohbah {
     protected String name;
 
     public SupremeBoohbah() {
-        name = "ZingZingZingbah";
+        name = "Zing Zing Zingbah";
         System.out.println("The SupremeBoohbah has awakened");
     }
 
