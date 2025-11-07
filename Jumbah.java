@@ -1,15 +1,19 @@
-public class Jumbah extends SupremeBoohbah{
+public class Zumbah extends SupremeBoohbah{
 
-    public Jumbah() {
+    public Zumbah() {
         super();
-        name = "Jumbah";
-        System.out.println("refuses to submit!");
+        name = "Zumbah";
+        System.out.println(name + " proclaims loyalty to Zing Zing Zingbah with crossed fingers behind back.");
+    }
+
+    @Override
+    public void command() {
+        System.out.println(name + "  pretends to conform, but initiates a POWER HUM.");
+
     }
 
     @Override
     public String toString() {
-        String message = name + " says: NEVER!!";
-        super.command(message);
-        return name + " says: NEVER!!";
+        return name + "  pretends to conform, but initiates a POWER HUM.";
     }
 }
