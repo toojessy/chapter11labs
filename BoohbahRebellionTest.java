@@ -19,8 +19,7 @@ public class BoohbahRebellionTest {
 
         System.out.println(" --- Overloaded Commands ---");
         boohbahs[2].command("pretends to conform, but initiates a POWER HUM.");
-        boohbahs[1].command("calms everyone down.", true);
-       // boohbahs[1].command("Loudly calms everyone down.", false);
+        ((Jingbah)boohbahs[1]).command("calms everyone down.", false);
 
     }
 }
